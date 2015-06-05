@@ -1,0 +1,87 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <title>详情页面</title>
+    <meta name="renderer" content="webkit">
+    <style type="text/css">
+        /* ---信息页标题--- */
+        #container_infobody {
+            width: 995px;
+        }
+        #infocontent {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            float: none;
+        }
+        #infocontent img{
+            background-color:#FFFFFF;
+            border-right-width: 5px;
+            border-bottom-width: 5px;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-right-color: #FFFFFF;
+            border-bottom-color: #FFFFFF;
+            max-width:600px;     /* IE7、FF等其他非IE浏览器下最大宽度为600px*/
+            width:expression(width>600?"600px":width+"px");
+            max-width: 600px;     /* 如果图片的尺寸超过600象素,那么就按600象素显示,高度同比例变化;如果图片的尺寸小于600象素,那么就原尺寸显示。在IE6中有效*/
+            overflow:hidden;     /* 超出的部分隐藏，避免控制图片大小失败而引起的撑开变形*/
+        }
+    </style>
+    <link href="distyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="contain">
+    <div class="head"></div>
+    <div  id="infotit">
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td height="4"></td>
+            </tr>
+        </table>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td align="center" valign="middle"><table width="82%" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="70" align="center" valign="middle" style="font-size: 24px" >[文章标题]</td>
+                    </tr>
+                </table>
+                    <table width="82%" border="0" cellpadding="0" cellspacing="0" bgcolor="#b1c1d1">
+                        <tr>
+                            <td height="1"></td>
+                        </tr>
+                    </table>
+                    <table width="82%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td height="28" align="center" valign="middle"><span class="STYLE2">发布时间：[发布时间] 浏览次数：[访问次数]</span></td>
+                        </tr>
+                    </table>
+                    <table width="82%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td height="20"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="container_infobody">
+        <div id="infocontent"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td align="center" valign="top"><table width="82%" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="360" valign="top" class="content">[文章内容]</td>
+                    </tr>
+                </table></td>
+            </tr>
+        </table>
+        </div>
+    </div>
+    <div class="footer">
+        中国福建省厦门市集美区银江路185号尚大楼14F <br/>
+        185Yinjiang Rd.,Jimei,Xiamen,Fujian Province,P.R.C. <br/>
+        电话/tel:+86-592-6188013 | 传真/Fax:+86-592-6180247 | e-mail:iced@jmu.edu.cn <br/>
+        CopyRight &reg;2015 <strong>集美大学国际合作交流处</strong>All Rights Reserved.
+    </div>
+</div>
+</body>
+</html>

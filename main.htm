@@ -1,0 +1,183 @@
+<html>
+<head>
+    <title>国际合作交流中心主页</title>
+    <meta charset="gb2312"/>
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        .haha{
+            text-align: center;
+        }
+        .haha td{
+            text-align: center;
+        }
+        .kao{
+            width: 100%;
+        }
+        .eee,.eee td{
+            width: 100%;
+            margin: 3px 0;
+        }
+        #gundong{
+            width: 555px !important;
+        }
+        #gundong div{
+            width: 555px !important;
+            margin-left: 25px !important;
+        }
+    </style>
+</head>
+<body align="center">
+<center>
+<div class="contain">
+    <div class="head"></div>
+    <table class="bar">
+        <tr>
+            <td><script language=JavaScript>
+
+                calendar = new Date();
+                day = calendar.getDay();
+                month = calendar.getMonth();
+                date = calendar.getDate();
+                year = calendar.getYear();
+                if (year < 200) year = 1900 + year;
+                cent = parseInt(year/100);
+                g = year % 19;
+                k = parseInt((cent - 17)/25);
+                i = (cent - parseInt(cent/4) - parseInt((cent - k)/3) + 19*g + 15) % 30;
+                i = i - parseInt(i/28)*(1 - parseInt(i/28)*parseInt(29/(i+1))*parseInt((21-g)/11));
+                j = (year + parseInt(year/4) + i + 2 - cent + parseInt(cent/4)) % 7;
+                l = i - j;
+                emonth = 3 + parseInt((l + 40)/44);
+                edate = l + 28 - 31*parseInt((emonth/4));
+                emonth--;
+
+
+
+                var dayname = new Array ("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六");
+                var monthname =
+                        new Array ("1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月" );
+
+                document.write("<font color=2b2b2b>"+year +"年");
+
+                document.write(monthname[month]);
+                document.write(date + "日");
+                document.write(dayname[day]+" "+"</font>");
+            </script></td>
+            <td id="gundong"><table><tr><td>[频道1]</td></tr></table></td>
+            <td align="right">您是第<table style="float:left;"><tr><td>[频道2]</td></tr></table>位访问本网站</td></td>
+        </tr>
+    </table>
+    <table class="menu">
+        <tr>
+            <td><table  style="height: 100%;width:100%"><tr><td class="haha">[频道3]</td></tr></table></td>
+        </tr>
+    </table>
+    <div class="tongzhi">
+        <div class="tongzhi_title">通知栏</div>
+        <hr style="border: 1px solid #b5ccc1"/>
+        <table class="tzgg">
+            <tr class="tzgg_title"><td>[标题11]</td><td>[更多按钮11]</td></tr>
+            <tr><td valign="top" colspan="2"><table class="eee"><tr><td style="width: 17px !important;"><img src="images/button_4.png" /></td><td>[频道11]</td></tr></table></td></tr>
+        </table>
+        <table class="tzgg cgjgs">
+            <tr class="tzgg_title"><td>[标题12]</td><td>[更多按钮12]</td></tr>
+            <tr><td valign="top" colspan="2"><table class="eee"><tr><td style="width: 17px !important;"><img src="images/button_4.png" /></td><td>[频道12]</td></tr></table></td></tr>
+        </table>
+    </div>
+    <div class="xwbs">
+        <table class="xwdt">
+            <tr><td class="xwdt_title">[标题13]</td><td>[更多按钮13]</td></tr>
+            <tr  style="border: 1px dashed black">
+                <td valign="top" colspan="2">
+                    <table style="width: 100%">
+                        <tr>
+                            <td style="position: relative;margin-top: 10px;margin-left: 10px;width: 40%;"><table><tr><td style="border-bottom: 1px solid #404040;padding: 3px 1px;">[频道131]</td></tr></table></td>
+                            <td valign="top"><table class="kao"><tr><td width="17px"><img src="images/button_4.png" /></td><td style="width:100%;border-bottom: 1px solid #ccc;padding: 3px 1px;">[频道13]</td></tr></table></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div class="bszn">
+            <div class="xwdt_title" style="line-height: 33px;margin-left: -555px;">办事指南</div>
+            <div style="margin-left: 5px;" class="bszn_main">
+                <a href="/s/189/t/1458/p/100/c/5748/list.jspy"><img src="images/_01.gif" alt=""/></a>
+                <a href="/s/189/t/1458/p/101/c/5749/list.jspy"><img src="images/_02.gif" alt=""/></a>
+                <a href="/s/189/t/1458/p/102/c/5750/list.jspy"><img src="images/_03.gif" alt=""/></a>
+                <a href="/s/189/t/1458/p/103/c/5799/list.jspy"><img src="images/_04.gif" alt=""/></a>
+                <a href="/s/189/t/1458/p/104/c/5798/list.jspy"><img src="images/_05.gif" alt=""/></a>
+            </div>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+    <div class="links">
+        <a href="/s/189/t/1458/p/105/c/5919/list.jspy"><img src="images/01.gif" alt=""/></a>
+        <a href="/s/189/t/1458/p/106/c/5920/list.jspy"><img src="images/02.gif" alt=""/></a>
+        <a href="/s/189/t/1458/p/107/c/5921/list.jspy"><img style="margin-top: 7px;"  src="images/03.gif" alt=""/></a>
+        <a href="/s/189/t/1458/p/108/c/5922/list.jspy"><img src="images/04.gif" alt=""/></a>
+        <div class="contact">
+            处长办公室：6181428 <br/>
+            副处长办公室：6180976 <br/>
+            港澳台办公室：6188013 <br/>
+            对外交流科：6180269 <br/>
+            外专外教科：6182387 <br/>
+            校董会办公室：6180247 <br/>
+        </div>
+    </div>
+    <div class="ghwx">
+        <div class="first">
+            <table class="hzbx">
+                <tr><td class="xwdt_title">[标题15]</td><td>[更多按钮15]</td></tr>
+                <tr  style="border: 1px dashed black"><td valign="top" colspan="2"><table class="kao"><tr><td width="17px"><img src="images/button_4.png" /></td><td style="width:100%;border-bottom: 1px solid #ccc;padding: 3px 1px;">[频道15]</td></tr></table></td></tr>
+            </table>
+        </div>
+        <div class="first" style="margin-left: 8px;">
+            <table class="hzbx">
+                <tr><td class="xwdt_title">[标题16]</td><td>[更多按钮16]</td></tr>
+                <tr  style="border: 1px dashed black"><td valign="top" colspan="2"><table class="kao"><tr><td width="17px"><img src="images/button_4.png" /></td><td style="width:100%;border-bottom: 1px solid #ccc;padding: 3px 1px;">[频道16]</td></tr></table></td></tr>
+            </table>
+        </div>
+        <div class="first">
+            <table class="hzbx">
+                <tr><td class="xwdt_title">[标题17]</td><td>[更多按钮17]</td></tr>
+                <tr  style="border: 1px dashed black"><td valign="top" colspan="2"><table class="kao"><tr><td width="17px"><img src="images/button_4.png" /></td><td style="width:100%;border-bottom: 1px solid #ccc;padding: 3px 1px;">[频道17]</td></tr></table></td></tr>
+            </table>
+        </div>
+        <div class="first" style="margin-left: 8px;">
+            <table class="hzbx">
+                <tr><td class="xwdt_title">[标题18]</td><td>[更多按钮18]</td></tr>
+                <tr  style="border: 1px dashed black"><td valign="top" colspan="2"><table class="kao"><tr><td width="17px"><img src="images/button_4.png" /></td><td style="width:100%;border-bottom: 1px solid #ccc;padding: 3px 1px;">[频道18]</td></tr></table></td></tr>
+            </table>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <table class="yqlj">
+        <tr>
+            <td><table><tr><td>[频道19]</td></tr></table></td>
+            <td><table><tr><td>[频道20]</td></tr></table></td>
+            <td><table><tr><td>[频道21]</td></tr></table></td>
+            <td><table><tr><td>[频道22]</td></tr></table></td>
+        </tr>
+    </table>
+<div style="float: left;display: none;">
+    <table hidden="hidden"><tr><td>[频道100]</td></tr></table>
+    <table hidden="hidden"><tr><td>[频道101]</td></tr></table>
+    <table hidden="hidden"><tr><td>[频道102]</td></tr></table>
+    <table hidden="hidden"><tr><td>[频道103]</td></tr></table>
+    <table hidden="hidden"><tr><td>[频道104]</td></tr></table>
+    <table hidden="hidden"><tr><td>[频道105]</td></tr></table>
+    <table hidden="hidden"><tr><td>[频道106]</td></tr></table>
+    <table hidden="hidden"><tr><td>[频道107]</td></tr></table>
+    <table hidden="hidden"><tr><td>[频道108]</td></tr></table>
+</div>
+    <div class="footer">
+        中国福建省厦门市集美区银江路185号尚大楼14F <br/>
+        185Yinjiang Rd.,Jimei,Xiamen,Fujian Province,P.R.C. <br/>
+        电话/tel:+86-592-6188013 | 传真/Fax:+86-592-6180247 | e-mail:iced@jmu.edu.cn <br/>
+        CopyRight &reg;2015 <strong><a href="http://webplus.jmu.edu.cn">集美大学国际合作交流处</a></strong>All Rights Reserved.
+    </div>
+</div>
+</center>
+</body>
+</html>

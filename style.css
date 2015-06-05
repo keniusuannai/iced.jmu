@@ -1,0 +1,180 @@
+*{margin: 0;padding: 0;}
+html,body{
+    width: 100%;height: 100%;
+}
+body{
+    background: url(images/bg.png) no-repeat;
+}
+a{
+    text-decoration: none;
+    color: #070707;
+}
+a:hover{
+    color: #4941ff;
+}
+.contain{
+    width: 1002px;
+    margin: auto;
+}
+.head{
+    width: 1002px;
+    height: 239px;
+    background: url("images/head.jpg") no-repeat;
+}
+.bar{
+    padding: 5px;
+    width: 100%;
+    background: url("images/nav_1.gif") no-repeat;
+}
+.menu{
+    background: url("images/menu.png") no-repeat;
+    width: 100%;
+    height: 41px;
+    color: white;
+    text-align: center;
+}
+.menu a{
+    text-align: center;
+}
+.footer{
+    padding-top: 5px;
+    height: 90px;
+    line-height: 23px;
+    text-align: center;
+    background:url("images/footer.png") no-repeat;
+    background-size: 100%;
+    margin-top: 30px;
+}
+.tongzhi{
+    background: url("images/tzgg.png") no-repeat;
+    height: 512px;
+    width: 299px;
+    margin-top: 5px;
+    float: left;
+}
+.tongzhi_title{
+    font-size: 23px;
+    color: white;
+    width: 90px;
+    margin: 0 auto;
+    font-weight: 900;
+    line-height: 50px;
+}
+.tzgg{
+    width: 299px;
+    height: 223px;
+}
+.tzgg_title{
+    height: 30px;
+    font-size: 21px;
+    color: #ffffff;
+}
+.cgjgs{
+    margin-top: 5px;
+}
+.xwbs{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 6px;
+    width: 697px;
+    height: 446px;
+}
+.xwdt{
+    width: 697px;
+    height: 276px;
+    border-collapse:collapse
+}
+.xwdt_title{
+    height: 33px;
+    width: 137px;
+    background: url("images/tbg.png") no-repeat;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 900;
+}
+.bszn{
+    margin-top: 10px;
+    width: 697px;
+    height: 178px;
+    border-collapse:collapse
+}
+.bszn_main img{
+    width: 132px;
+    filter:alpha(opacity=80);       /* IE */
+    -moz-opacity:0.8;              /* 老版Mozilla */
+    -khtml-opacity:0.8;              /* 老版Safari */
+    opacity: 0.8;           /* 支持opacity的浏览器*/
+    border:none;
+}
+.bszn_main img:hover{
+    filter:alpha(opacity=100);       /* IE */
+    -moz-opacity:1;              /* 老版Mozilla */
+    -khtml-opacity:1;              /* 老版Safari */
+    opacity: 1;           /* 支持opacity的浏览器*/
+}
+.bszn_main{
+    border-top: 1px solid black;
+    /*border-bottom: 1px solid black*/
+}
+.links{
+    float: left;
+    margin-top: 10px;
+    width: 299px;
+    height: 430px;
+    text-align: center;
+}
+.links img{
+    width: 90%;
+    filter:alpha(opacity=80);       /* IE */
+    -moz-opacity:0.8;              /* 老版Mozilla */
+    -khtml-opacity:0.8;              /* 老版Safari */
+    opacity: 0.8;           /* 支持opacity的浏览器*/
+    border:none;
+}
+.links img:hover{
+    filter:alpha(opacity=100);       /* IE */
+    -moz-opacity:1;              /* 老版Mozilla */
+    -khtml-opacity:1;              /* 老版Safari */
+    opacity: 1;           /* 支持opacity的浏览器*/
+}
+.contact{
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+.ghwx{
+    display: inline-block;
+    height: 430px;
+    width: 697px;
+    margin-left: 6px;
+    margin-top: -45px;
+}
+.first{
+    display: inline-block;
+    width: 344px;
+    height: 239px;
+    margin-top: 5px;
+    float: left;
+}
+.hzbx{
+    width: 344px;
+    height: 239px;
+    border-collapse:collapse
+}
+.yqlj{
+    margin-top: 7px;
+    width: 1002px;
+}
+.yqlj td{
+    width: 25%;
+    text-align: center;
+}
+.lanmu{
+    height:33px;
+    text-indent: 14px;
+    background:url("images/lanmu.png") no-repeat;
+}
